@@ -1,0 +1,18 @@
+.button {
+  &.primary-button {
+    @include buttons($font-link-color, $font-white-color, 2px solid $font-link-color, 8px 25px);
+  }
+
+  &.secondary-button {
+    @include buttons(#bbee99, $font-white-color, 2px solid $font-main-color, 10px 15px);
+  }
+
+  &.tertiary-button {
+    @include buttons($font-black-color, $font-link-color, 2px solid $font-black-color, 12px 30px);
+  }
+}
+
+.btn-pink {
+  background-color: pink;
+  border-color: pink;
+}

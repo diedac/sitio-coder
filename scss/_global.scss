@@ -1,0 +1,30 @@
+html, body {
+  font-size: 15px;
+  color: $font-main-color;
+  font-family: $font-main-text;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading-text;
+  color: $font-black-color;
+  margin: 0 0 26px;
+  font-weight: 600;
+}
+
+a {
+  color: $font-link-color;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+  outline: none !important;
+
+  &:active,
+  &:hover {
+    text-decoration: none;
+    outline: 0 none;
+    color: $font-black-color;
+  }
+}

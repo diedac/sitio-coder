@@ -1,0 +1,6 @@
+@mixin buttons($bgcolor, $fontcolor, $border, $padding) {
+  background: $bgcolor;
+  padding: $padding;
+  color: $fontcolor;
+  border: $border;
+}
